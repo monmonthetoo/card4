@@ -1,0 +1,54 @@
+body{
+   
+}
+
+.container {
+    width: 90%;
+    margin: 3%;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card {
+    display: flex;
+    column-gap: 40px;
+    position: relative;
+    margin-top: 22px;
+
+}
+
+.card-item {
+    box-shadow: 2px 5px 5px 2px gray;
+    border: 1px solid rgb(243, 233, 233);
+    width: 353px;
+    height: 400px;
+    border-radius: 3px;
+}
+img{
+    width: 352px;
+    height:230px ;
+    border-radius: 3px 3px 0px 0px;
+}
+.txt{
+    padding: 0px 10px;
+}
+h3{
+    margin-top: 10px;
+}
+p{
+    margin-top: -10px;
+   text-align: justify;
+   color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(229, 236, 234);
+    height: 30px;
+    padding: 12px;
+    border-radius: 0px 0px 3px 3px;
+    column-gap: 122px;
+}
